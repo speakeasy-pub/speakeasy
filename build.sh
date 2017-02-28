@@ -1,6 +1,8 @@
-set -e
+#!/bin/sh
+set -ex
 
+# Get version
+dart --version
+
+# Get dependencies
 pub install
-
-pub global activate linter
-pub global run linter .

@@ -1,5 +1,13 @@
-build:
-  image: google/dart:latest
-  pull: true
-  commands:
-    - sh build.sh
+pipeline:
+  build:
+    image: google/dart:${DART_VERSION}
+    pull: true
+    commands:
+      - sh build.sh
+    environment:
+      - DARTANALYZER_FLAGS=--fatal-warnings
+
+matrix:
+  DART_VERSION:
+    - latest
+    - dev
