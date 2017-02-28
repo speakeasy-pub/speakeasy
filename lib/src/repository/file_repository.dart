@@ -2,8 +2,6 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-library speakeasy.src.repository.file_repository;
-
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
