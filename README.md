@@ -1,7 +1,7 @@
 ![Logo](speakeasy.png "Speakeasy")
 > A private pub server for Dart
 
-[![Build Status](http://beta.drone.io/api/badges/donny-dont/speakeasy/status.svg)](http://beta.drone.io/donny-dont/speakeasy)
+[![Build Status](http://beta.drone.io/api/badges/speakeasy-pub/speakeasy/status.svg)](http://beta.drone.io/speakeasy-pub/speakeasy)
 
 ## Installing
 TODO
